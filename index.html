@@ -22,17 +22,23 @@
     <header id="header" class="header">
         <div class="fheader">
             <img src="logo.png" class="logo" alt="logo.png">
-        
+            
+            <div class="fmode">
+                <label for="checkbox">Darkmode ?</label>
+                <input type="checkbox" name="checkbox" id="checkbox" onchange="dark()">
+            </div>
         </div>
 
         <div class="menu">
             <nav class="mainnav ">
                 <ul>
+                    
                    
                     <li><button class="button button-new">Join the Waitlist</button></li>
                 </ul>
             </nav>
-    
+            
+            <div class="hammenu "><button><i class='bx bx-menu-alt-left'></i></button></div>
             
             </div>
 
@@ -41,7 +47,7 @@
     
     <main>
         
-        <article>
+        <article id="article">
 
 
             
@@ -58,7 +64,7 @@
     </main>
 
     
-        <footer>
+        <footer id="footer">
             <h1>Join the Waitlist</h1>
             <div>
                 <input type="text" name="name" id="name" placeholder="Name">
