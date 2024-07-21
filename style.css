@@ -552,17 +552,19 @@ input[type="checkbox"]{
 video {
     width: 260px;
     height: 500px;
-    border-radius: 90px 90px 40px 40px;
-    position: relative;
+    border-radius: 90px 70px 60px 60px;
+    
     
 
     
 }
 .reels img{
-    width: 260px;
-    height: 500px;
+    width: 270px;
+    height: 480px;
     position: absolute;
     /* left: 40px; */
+
+    
     top: 76px;
 }
 
