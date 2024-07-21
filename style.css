@@ -34,6 +34,10 @@ header{
     
 }
 
+.reels{
+    display: none;
+}
+
 .fheader{
     /* border: 2px solid black; */
     display: flex;
@@ -523,6 +527,44 @@ input[type="checkbox"]{
         /* border: 2px solid black; */
         padding: 0em 0em 0em 0.2em;
     }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 425px){
+
+.reels{
+    /* border: 2px solid black; */
+    margin: 0em 0em 2em 0em;
+    display: flex;
+    /* padding: 0em 0em 0em 0em ; */
+}
+
+
+video {
+    width: 260px;
+    height: 500px;
+    border-radius: 90px 90px 40px 40px;
+    position: relative;
+    
+
+    
+}
+.reels img{
+    width: 260px;
+    height: 500px;
+    position: absolute;
+    /* left: 40px; */
+    top: 76px;
+}
 
 
 
