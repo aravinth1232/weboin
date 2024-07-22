@@ -219,7 +219,7 @@ input[type="checkbox"]{
 
 
 article{
-    border: 2px solid black;
+    /* border: 2px solid black; */
    
     background-image: url("map.png.webp");
     background-color: #d32020;
@@ -353,7 +353,7 @@ h4{
 
 
 
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 776px)  {
 
     
 
@@ -397,9 +397,173 @@ footer div input{
 
 }
 
+
+
+
+article img{
+    width: 300px;
+    display: flex;
+
+  
+}
+
+article h1{
+    font-size: 2em;
+    color: #FFFFFF;
+    padding: 0.5em 0em;
+}
+article p{
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: justify;
+    /* border: 2px solid black; */
+    display: flex;
+    
+
+    padding: 0em 0em 1em 0em;
+    
 }
 
 
+
+.reels{
+    /* border: 2px solid black; */
+    margin: 0em 0em 1em 0em;
+    display: flex;
+    /* padding: 0em 0em 0em 0em ; */
+}
+
+
+video {
+    width: 260px;
+    height: 500px;
+    border-radius: 90px 70px 60px 60px;
+    
+    
+
+    
+}
+.reels img{
+    width: 270px;
+    height: 480px;
+    position: absolute;
+    /* left: 40px; */
+
+    
+    top: 76px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 630px){
+
+    article{
+        /* border: 2px solid black; */
+        padding-right: 0.5em;
+    }
+   
+    .info{
+        /* border: 2px solid black; */
+        padding: 1em 0em 0em 1em;
+    }
+
+    .info img{
+        width: 200px;
+    }
+
+    .info h1{
+        font-size: 1.5em;
+    }
+
+    .info p{
+        font-size: 1em;
+        font-weight: 400;
+        padding-top: 1em;
+        padding-bottom: 2em ;
+    }
+
+    .info button{
+
+        /* border: 2px solid black; */
+        
+
+    }
+
+
+    video {
+        width: 260px;
+        height: 500px;
+        border-radius: 80px 70px 60px 60px;
+        
+        
+    
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 550px){
+
+    
+
+
+    article{
+        border: 2px solid black;
+       
+        background-image: url("map.png.webp");
+        background-color: #d32020;
+        background-blend-mode: overlay;
+    
+       display: flex;
+      flex-direction: column;
+         /* justify-content: space-evenly; */
+       /* align-items: center; */
+       padding: 4em 2em;
+      
+    
+    
+    }
+
+
+    .info{
+        /* border: 2px solid black; */
+        padding: 1em 0em 0em 1em;
+    }
+
+    .info img{
+        width: 200px;
+        align-self: center;
+    }
+
+    .info h1{
+        font-size: 1.5em;
+    }
+
+    .info p{
+        font-size: 1em;
+        font-weight: 400;
+        padding-top: 1em;
+        padding-bottom: 2em ;
+    }
+
+    .info button{
+        align-self: center;
+
+        /* border: 2px solid black; */
+        
+
+    }
+
+
+
+
+
+
+}
 
 
 
@@ -469,6 +633,65 @@ input[type="checkbox"]{
 
 
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px){
+
+.reels{
+    /* border: 2px solid black; */
+    margin: 0em 0em 2em 0em;
+    display: flex;
+    /* padding: 0em 0em 0em 0em ; */
+}
+
+
+video {
+    width: 260px;
+    height: 500px;
+    border-radius: 80px 70px 60px 60px;
+    
+    
+
+    
+}
+.reels img{
+    width: 270px;
+    height: 480px;
+    position: absolute;
+    /* left: 40px; */
+
+    
+    top: 76px;
+}
+
+
+
+article{
+    border: 2px solid black;
+   
+    background-image: url("map.png.webp");
+    background-color: #d32020;
+    background-blend-mode: overlay;
+
+   display: flex;
+  flex-direction: column;
+     /* justify-content: space-evenly; */
+   /* align-items: center; */
+   padding: 4em 2em;
+  
+
+
+}
+
+
+
+}
+
 
 
 
@@ -574,63 +797,6 @@ input[type="checkbox"]{
     }
 
 
-
-
-
-}
-
-
-
-
-
-
-@media only screen and (max-width: 425px){
-
-.reels{
-    /* border: 2px solid black; */
-    margin: 0em 0em 2em 0em;
-    display: flex;
-    /* padding: 0em 0em 0em 0em ; */
-}
-
-
-video {
-    width: 260px;
-    height: 500px;
-    border-radius: 90px 70px 60px 60px;
-    
-    
-
-    
-}
-.reels img{
-    width: 270px;
-    height: 480px;
-    position: absolute;
-    /* left: 40px; */
-
-    
-    top: 76px;
-}
-
-
-
-article{
-    border: 2px solid black;
-   
-    background-image: url("map.png.webp");
-    background-color: #d32020;
-    background-blend-mode: overlay;
-
-   display: flex;
-  flex-direction: column;
-     /* justify-content: space-evenly; */
-   /* align-items: center; */
-   padding: 4em 2em;
-  
-
-
-}
 
 
 
